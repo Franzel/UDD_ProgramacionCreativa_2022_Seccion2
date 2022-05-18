@@ -1,5 +1,4 @@
 //CLASE BASICA
-
 class Modulo {
   //variables de la clase
   float posX, posY;
