@@ -24,7 +24,7 @@ void mouseDragged() {
 
   Modulo temp = new Modulo(mouseX, mouseY, 100);
   modulos.add(temp);
-  if (modulos.size()>500) {
+  if (modulos.size()>100) {
     modulos.remove(0);
   }
 }
