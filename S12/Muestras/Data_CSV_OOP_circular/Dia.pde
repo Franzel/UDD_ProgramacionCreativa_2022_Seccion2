@@ -30,24 +30,23 @@ class Dia {
     textSize(10);
     textAlign(RIGHT);
     fill(0);
-    text(dia, 95, 3);
+    text(dia, 95, 4);
 
     //temp max
     fill(255, 0, 0);
     rect(radio, -grosor/2, largoTempMax, grosor);
     textAlign(LEFT);
-    text(str(tMax), radio + largoTempMax + 5, 3);
+    text(str(tMax), radio + largoTempMax + 5, 4);
 
     //temp min
     fill(0, 200, 255);
     rect(radio, -grosor/2, largoTempMin, grosor);
     fill(255);
-    text(str(tMin), radio + largoTempMin + 5, 3);
+    text(str(tMin), radio + largoTempMin + 5, 4);
 
     //diff
     fill(220, 200, 80);
-    ellipse(radio + largoTempMax + 35, 0, diff, diff); //representamos la variacion segun el tamaño de un circulo
-
+    ellipse(radio + largoTempMax + 40, 0, diff, diff); //representamos la variacion segun el tamaño de un circulo
     popMatrix();
   }
 }
